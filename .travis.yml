@@ -1,8 +1,7 @@
 language: node_js
-
 node_js:
-        - "stable"
-
+  - "stable"
+install: travis_wait mvn install
 cache:
-        directories:
-                - "node_modules"
+  directories:
+    - "node_modules"
