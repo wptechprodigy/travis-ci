@@ -1,0 +1,30 @@
+{
+  "name": "travis-ci",
+  "version": "1.0.0",
+  "description": "Continuos Integration with TravisCI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wptechprodigy/travis-ci.git"
+  },
+  "keywords": [],
+  "author": "Waheed Afolabi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wptechprodigy/travis-ci/issues"
+  },
+  "homepage": "https://github.com/wptechprodigy/travis-ci#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
